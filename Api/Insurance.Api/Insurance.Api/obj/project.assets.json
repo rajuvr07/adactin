@@ -72,6 +72,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Insurance.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Insurance.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Insurance.Models.dll": {}
+        }
+      },
+      "Insurance.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Insurance.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Insurance.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Insurance.Services.dll": {}
+        }
       }
     }
   },
@@ -200,10 +223,22 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Insurance.Models/1.0.0": {
+      "type": "project",
+      "path": "../Insurance.Models/Insurance.Models.csproj",
+      "msbuildProject": "../Insurance.Models/Insurance.Models.csproj"
+    },
+    "Insurance.Services/1.0.0": {
+      "type": "project",
+      "path": "../Insurance.Services/Insurance.Services.csproj",
+      "msbuildProject": "../Insurance.Services/Insurance.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Insurance.Models >= 1.0.0",
+      "Insurance.Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -233,7 +268,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Studies\\Adactin_interview\\adactin\\Api\\Insurance.Api\\Insurance.Models\\Insurance.Models.csproj": {
+              "projectPath": "D:\\Studies\\Adactin_interview\\adactin\\Api\\Insurance.Api\\Insurance.Models\\Insurance.Models.csproj"
+            },
+            "D:\\Studies\\Adactin_interview\\adactin\\Api\\Insurance.Api\\Insurance.Services\\Insurance.Services.csproj": {
+              "projectPath": "D:\\Studies\\Adactin_interview\\adactin\\Api\\Insurance.Api\\Insurance.Services\\Insurance.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Insurance.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Insurance.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Insurance.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Insurance.Models/1.0.0": {
+      "type": "project",
+      "path": "../Insurance.Models/Insurance.Models.csproj",
+      "msbuildProject": "../Insurance.Models/Insurance.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Insurance.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\91973\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Studies\\Adactin_interview\\adactin\\Api\\Insurance.Api\\Insurance.Models\\Insurance.Models.csproj": {
+              "projectPath": "D:\\Studies\\Adactin_interview\\adactin\\Api\\Insurance.Api\\Insurance.Models\\Insurance.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

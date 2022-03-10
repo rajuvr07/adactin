@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Insurance.Services/1.0.0": {
+        "dependencies": {
+          "Insurance.Models": "1.0.0"
+        },
+        "runtime": {
+          "Insurance.Services.dll": {}
+        }
+      },
+      "Insurance.Models/1.0.0": {
+        "runtime": {
+          "Insurance.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Insurance.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Insurance.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

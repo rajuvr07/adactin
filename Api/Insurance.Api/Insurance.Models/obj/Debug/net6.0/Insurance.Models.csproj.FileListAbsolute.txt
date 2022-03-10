@@ -1,0 +1,12 @@
+D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Models\bin\Debug\net6.0\Insurance.Models.deps.json
+D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Models\bin\Debug\net6.0\Insurance.Models.dll
+D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Models\bin\Debug\net6.0\Insurance.Models.pdb
+D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Models\obj\Debug\net6.0\Insurance.Models.csproj.AssemblyReference.cache
+D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Models\obj\Debug\net6.0\Insurance.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Models\obj\Debug\net6.0\Insurance.Models.AssemblyInfoInputs.cache
+D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Models\obj\Debug\net6.0\Insurance.Models.AssemblyInfo.cs
+D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Models\obj\Debug\net6.0\Insurance.Models.csproj.CoreCompileInputs.cache
+D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Models\obj\Debug\net6.0\Insurance.Models.dll
+D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Models\obj\Debug\net6.0\refint\Insurance.Models.dll
+D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Models\obj\Debug\net6.0\Insurance.Models.pdb
+D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Models\obj\Debug\net6.0\ref\Insurance.Models.dll
