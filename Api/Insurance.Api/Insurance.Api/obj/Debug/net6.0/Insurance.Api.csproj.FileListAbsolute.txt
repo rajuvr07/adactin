@@ -29,3 +29,6 @@ D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Api\obj\Debug\n
 D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Api\obj\Debug\net6.0\Insurance.Api.pdb
 D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Api\obj\Debug\net6.0\Insurance.Api.genruntimeconfig.cache
 D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Api\obj\Debug\net6.0\ref\Insurance.Api.dll
+D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Api\bin\Debug\net6.0\FluentValidation.dll
+D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\Studies\Adactin_interview\adactin\Api\Insurance.Api\Insurance.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
