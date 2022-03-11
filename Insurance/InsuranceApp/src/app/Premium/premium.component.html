@@ -1,0 +1,86 @@
+<mat-card>
+    <mat-card-title>Monthly Premium Calculator</mat-card-title>
+    <mat-card-content>
+      <div class="row">
+        <div class="col-md-12">
+          <form [formGroup]="premiumCalculator" novalidate>
+            <div class="form-container">
+              <div class="flex-item">
+                <mat-form-field appearance="outline">
+                  <mat-label>Customer name</mat-label>
+                  <input
+                    matInput
+                    placeholder="Customer name"
+                    formControlName="name"
+                    required
+                  />
+                </mat-form-field>
+              </div>
+              <div class="flex-item">
+                <mat-form-field appearance="outline">
+                  <mat-label>Age</mat-label>
+                  <input
+                    matInput
+                    placeholder="Age"
+                    formControlName="age"
+                    required
+                  />
+                </mat-form-field>
+              </div>
+              <div class="flex-item">
+                <mat-form-field appearance="outline">
+                  <mat-label>Date of Birth</mat-label>
+                  <input
+                    matInput
+                    placeholder="Date of Birth"
+                    formControlName="dateOfBirth"
+                    required
+                  />
+                </mat-form-field>
+              </div>
+              <div class="flex-item">
+                <mat-form-field appearance="outline">
+                  <mat-label>Occupation</mat-label>
+                  <input
+                    matInput
+                    placeholder="Occupation"
+                    formControlName="occupation"
+                    required
+                  />
+                </mat-form-field>
+              </div>
+              <div class="flex-item">
+                <mat-form-field appearance="outline">
+                  <mat-label>Sum Insured</mat-label>
+                  <input
+                    matInput
+                    placeholder="Sum Insured"
+                    formControlName="sumInsured"
+                    required
+                  />
+                </mat-form-field>
+              </div>
+              <div class="form-container">
+                <div class="flex-item">
+                  <button
+                    type="submit"
+                    mat-raised-button
+                    color="primary"
+                    (click)="calculateMonthlyPremium()"
+                    [disabled]="premiumCalculator.invalid"
+                  >
+                    Calculate</button
+                  >
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </mat-card-content>
+    
+    <mat-card *ngIf="monthlyPremium !== 0">
+      <h3>Your estimated montly premium is {{monthlyPremium}}</h3>
+    </mat-card>
+  </mat-card>
+  
