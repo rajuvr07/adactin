@@ -40,13 +40,15 @@
               <div class="flex-item">
                 <mat-form-field appearance="outline">
                   <mat-label>Occupation</mat-label>
-                  <input
-                    matInput
-                    placeholder="Occupation"
-                    formControlName="occupation"
-                    required
-                  />
+                  <mat-select  formControlName="occupation"
+                  required>
+                    <mat-option value="professional">Professional</mat-option>
+                    <mat-option value="white collar">White Collar</mat-option>
+                    <mat-option value="light manual">Light manual</mat-option>
+                    <mat-option value="heavy manual">Heavy manual</mat-option>
+                  </mat-select>
                 </mat-form-field>
+              
               </div>
               <div class="flex-item">
                 <mat-form-field appearance="outline">
@@ -78,8 +80,9 @@
       </div>
     </mat-card-content>
     
-    <mat-card *ngIf="monthlyPremium !== 0">
+    <mat-card *ngIf="monthlyPremium !== 0" style="background-color:rgb(238, 198, 198);padding:5px}">
       <h3>Your estimated montly premium is {{monthlyPremium}}</h3>
     </mat-card>
+   
   </mat-card>
   

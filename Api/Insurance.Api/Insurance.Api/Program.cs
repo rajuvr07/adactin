@@ -13,9 +13,19 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddServices();
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(options =>
+    {
+        options.AllowAnyHeader();
+        options.AllowAnyMethod();
+        options.AllowAnyOrigin();
+    });
+});
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+app.UseCors();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
